@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.cell.x {
+    color: green;
+}
+
+.cell.o {
+    color: red;
+}
